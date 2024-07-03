@@ -1,0 +1,10 @@
+package com.student1;
+
+public class JavaSqlExample1 {
+	public static void main(String[] args) {
+		// java와 oracle sql을 연동하는 예제
+		
+		// 1. jaca와 oracle을 연동 지원을 해주는 드라이버(oracle회사에서 jar파일로 제공)를 설정.
+		
+	}
+}

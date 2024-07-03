@@ -1,0 +1,13 @@
+-- sequence생성
+CREATE SEQUENCE seq_board_no INCREMENT BY 1 START WITH 1;
+
+INSERT INTO BOARD(SEQ, TITLE, CONTENT, CREATE_DATE, READ_COUNT)
+ values(SEQ_board_no.nextval, '제목입니다', '내용입니다1', sysdate, 0);
+
+INSERT INTO BOARD(SEQ, TITLE, CONTENT, READ_COUNT)
+ values(SEQ_board_no.nextval, '제목입니다2', '내용입니다2', 0);
+
+INSERT INTO BOARD(SEQ, TITLE, CONTENT)
+ values(SEQ_board_no.nextval, '제목입니다3', '내용입니다3');
+ 
+SELECT * FROM board;

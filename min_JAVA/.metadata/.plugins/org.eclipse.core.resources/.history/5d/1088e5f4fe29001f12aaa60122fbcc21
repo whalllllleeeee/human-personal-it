@@ -1,0 +1,16 @@
+package com.student1.utils;
+
+import java.sql.Connection;
+
+public class DBManager {
+	public static void main(String[] args) {
+		/*
+		 * 설명 : 오라클 접속 메소드
+		 * @return 
+		 */
+		
+		Connection conn = null;
+		
+		@return conn;
+	}
+}

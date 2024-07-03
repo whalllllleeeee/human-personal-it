@@ -1,0 +1,5 @@
+부서번호,부서명,
+A1,영업부,"=CONCATENATE(a""INSERT INTO departments values('"",A2,""','"",B2,""','"",TEXT(C2, ""yyyy-MM-dd""),""');"")"
+A2,기획부,"=CONCATENATE(a""INSERT INTO departments values('"",A2,""','"",B2,""','"",TEXT(C3, ""yyyy-MM-dd""),""');"")"
+A3,개발부,"=CONCATENATE(a""INSERT INTO departments values('"",A2,""','"",B2,""','"",TEXT(C4, ""yyyy-MM-dd""),""');"")"
+A4,홍보부,"=CONCATENATE(a""INSERT INTO departments values('"",A2,""','"",B2,""','"",TEXT(C5, ""yyyy-MM-dd""),""');"")"

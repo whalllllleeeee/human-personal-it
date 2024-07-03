@@ -1,0 +1,23 @@
+package com.student1;
+
+import java.sql.*;
+
+public class JavaSqlExample1 {
+	public static void main(String[] args) {
+		// java와 oracle sql을 연동하는 예제
+		
+		// 1. jaca와 oracle을 연동 지원을 해주는 드라이버(oracle회사에서 jar파일로 제공)를 설정.
+		// 	(1) ojdbc8~ jar파일 프로젝트 내에 저장
+		//  (2) java.bulid path - library - class path에 external jars로 (1)의 파일을 등록
+		
+		// 2. ojdbc의 패키지 라이브러리 클래스 파일 중에 접속 및 연동을 도와주는 클래스 객체를 선언
+		// 	(1) Connection -> DMBS 접속 관리 클래스
+		// 	(2) Statement, PreparedStatement -> sql 실행을 도와주는 클래스
+		// 	(3) ResultSet -> sql실행 이후 결과 데이터들을 컨트롤하는 클래스
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		Class.forName("oracle.jdbc.OracleDriver"); 		// 오라클 접속을 위한 Driver 사전작업
+	}
+}
